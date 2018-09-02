@@ -1,0 +1,36 @@
+.blocks {
+	width: 100%;
+	position: relative;
+	padding: 20px 20px 15px;
+	box-sizing: border-box;
+	margin: 10px 0;
+	border: 2px solid #a0a0a0;
+	
+	&.green {
+		border-color: #3cb500;
+	}
+	&.red {
+		border-color: #FE6059;
+	}
+	&.selected {
+		background: #88BFFF;
+	}
+}
+.blocks_close {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: -2px;
+	right: -2px;
+	background: #FF0000;
+	color: #FFF;
+	line-height: 20px;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	
+	&:hover {
+		opacity: 0.8;
+	}
+}
